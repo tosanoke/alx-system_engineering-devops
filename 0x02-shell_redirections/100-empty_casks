@@ -1,2 +1,0 @@
-find . -type d -empty -exec printf %fn {} \; -o -type f -empty -exec printf %fn {} \;
-find . -type d -empty -exec printf "%f\n" {} \; -o -type f -empty -exec printf "%f\n" {} \
