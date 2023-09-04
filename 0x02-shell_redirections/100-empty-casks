@@ -1,0 +1,3 @@
+#!/bin/bash
+find . -type d -empty -exec printf "%f\n" {} \; -o -type f -empty -exec printf "%f\n" {} \;
+
